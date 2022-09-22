@@ -76,6 +76,7 @@ window.onload = async () => {
 
             inserirId(conteudoResposta[i]._id, excluirEvento, 'excluir-evento');
             inserirId(conteudoResposta[i]._id, editarEvento, 'editar-evento');
+            inserirId(conteudoResposta[i]._id, reservasEvento, 'ver reservas');
         }
 
     } catch (error) {
